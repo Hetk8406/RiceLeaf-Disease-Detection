@@ -1,0 +1,112 @@
+/* Dashboard Custom Styling - Agriculture theme */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #2D3748;
+}
+
+/* Sidebar layout */
+.sidebar-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    padding: 0;
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+    z-index: 100;
+}
+
+/* Sidebar header styling */
+.sidebar-header-custom {
+    padding: 1.5rem 1.25rem;
+    background-color: #1b4332; /* Dark green primary color */
+}
+
+/* Sidebar navigation item styling */
+.nav-item-custom {
+    color: #495057 !important;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    border-radius: 4px;
+    padding: 0.6rem 1rem !important;
+    transition: all 0.15s ease;
+    border-left: 3px solid transparent;
+}
+
+.nav-item-custom:hover {
+    background-color: #f1f3f5;
+    color: #212529 !important;
+}
+
+.nav-item-custom.active {
+    background-color: #e8f5e9 !important; /* Soft light green */
+    color: #1b4332 !important; /* Forest green text */
+    font-weight: bold;
+    border-left: 3px solid #1b4332; /* Left side indicator */
+}
+
+/* Main Content custom layout */
+.content-custom {
+    margin-left: 260px;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Header bar component */
+.header-bar-custom {
+    background-color: #1b4332; /* Dark green primary color */
+    padding: 1.5rem 2rem;
+    border-bottom: 2px solid #2d6a4f;
+}
+
+/* KPI Dashboard Cards */
+.kpi-card-custom {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px; /* Subtle rounding */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Minimal soft shadow */
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kpi-card-custom:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-value-custom {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    margin-top: 0.25rem;
+    color: #1b4332 !important; /* Match text to green accents */
+}
+
+/* Custom Table Layouts */
+.table-custom-style {
+    font-size: 14px;
+}
+
+.table-custom-style th {
+    background-color: #f1f3f5;
+    color: #495057;
+    position: sticky;
+    top: 0;
+}
+
+/* Alternate row styling for student table formatting */
+.table-success-custom {
+    background-color: #e8f5e9 !important;
+    font-weight: bold;
+}
+
+/* Thumbnail layouts */
+.img-thumbnail {
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+    padding: 0.25rem;
+    background-color: #fff;
+    max-height: 224px;
+    object-fit: cover;
+}
