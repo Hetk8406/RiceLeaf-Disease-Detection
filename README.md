@@ -9,11 +9,12 @@ The project contains a complete exploratory analysis, experiments with baseline 
 ## Project Structure
 
 ```
-Rice-Leaf-Disease-Detection/
+DS-Project-05-Rice-Leaf-Disease-Detection/
 │
 ├── Bacterial leaf blight/     # Raw dataset images for Blight
 ├── Brown spot/                # Raw dataset images for Spot
 ├── Leaf smut/                 # Raw dataset images for Smut
+├── RiceLeaf Disease Detection/# Application Screenshots (DS5-Project-1.png to 8.png)
 │
 ├── Rice_Leaf_Disease_Detection.ipynb   # Jupyter Notebook containing full EDA & Model Training
 ├── dashboard.py               # Plotly Dash Dashboard application
@@ -77,6 +78,29 @@ The custom agriculture-themed student dashboard includes the following sections:
 - **Data Augmentation**: Visualization of physical leaf shifts, zooms, flips, and rotations.
 - **Project Challenges**: Documentation of challenges (small dataset size, training time, overfitting) and engineering solutions used.
 - **Project Summary**: Quick summary table of findings and future research paths.
+
+---
+
+## Dashboard Screenshots
+
+<p align="center">
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-1.png" alt="Dashboard Overview" width="90%"/>
+  <br><em>Dashboard Overview Page</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-2.png" alt="Dataset Overview" width="90%"/>
+  <br><em>Dataset Overview & Class Distribution</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-3.png" alt="Exploratory Data Analysis" width="90%"/>
+  <br><em>Exploratory Data Analysis & Resolution Distribution Scatter</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-4.png" alt="Model Performance" width="90%"/>
+  <br><em>Model Performance & Accuracy/Loss Curves</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-5.png" alt="Disease Prediction Lab" width="90%"/>
+  <br><em>Disease Detection & Image Upload Lab</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-6.png" alt="Data Augmentation" width="90%"/>
+  <br><em>Data Augmentation & Transformation Visualizer</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-7.png" alt="Project Challenges" width="90%"/>
+  <br><em>Project Challenges & Engineering Solutions</em><br><br>
+  <img src="RiceLeaf%20Disease%20Detection/DS5-Project-8.png" alt="Project Summary" width="90%"/>
+  <br><em>Project Summary & Production Recommendations</em><br>
+</p>
 
 ---
 
